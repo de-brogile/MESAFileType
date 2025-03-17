@@ -105,7 +105,6 @@ MESAFileType MESAFileIdentifyByLibmagic(const char* filePath, MESAFileError* err
         }
         return MESA_FILE_TYPE_UNKNOWN;
     }
-    printf("have路径\n");
     printf("%s\n",filePath);
     MESAFileIdentifierInternal* internal = MESAFileIdentifierInitInternal();
     if (!internal) {

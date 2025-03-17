@@ -151,18 +151,11 @@ MESAFileType MESAFileDownloadAndIdentify(const char* url, MESAFileError* error) 
     fclose(save_fp);
     fclose(temp_fp);
 
-    // 重新打开临时文件进行识别
-    temp_fp = tmpfile();
-    if (!temp_fp) {
-        if (error) {
-            *error = MESA_FILE_ERR_INTERNAL;
-        }
-        return MESA_FILE_TYPE_UNKNOWN;
-    }
+    MESAFileType file_type = MESAFileIdentifyByLibmagic(filename, error);
 
-    MESAFileType file_type = MESAFileIdentifyByLibmagic(temp_fp, error);
-    fclose(temp_fp);
 
+
+    
     return file_type;
 }
 

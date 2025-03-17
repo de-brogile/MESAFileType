@@ -53,14 +53,19 @@ MESAFileType MESAFileIdentifyByUrl(const char* url, MESAFileError* error);
 // 前端识别：通过HTTP响应的Content-Type字段识别
 MESAFileType MESAFileIdentifyByHttpContentType(const char* url, MESAFileError* error);
 
+
 // 后端识别：基于libmagic识别单个文件类型
 MESAFileType MESAFileIdentifyByLibmagic(const char* filePath, MESAFileError* error);
 
 // // 后端识别：基于libmagic识别多个文件类型（多线程）
 // MESAFileType* MESAFileIdentifyMultipleByLibmagic(const char** filePaths, int fileCount, MESAFileError** errors);
 
+
+
+
 // 综合识别：结合前端和后端识别方式
 MESAFileType MESAFileIdentifyCombined(const char* filePath, const char* url, MESAFileError* error);
+
 
 
 //功能性函数
