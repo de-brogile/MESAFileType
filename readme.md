@@ -44,7 +44,6 @@ MESAFileType/
 │   └── utils.h               # 工具函数头文件
 ├── Makefile                  # 编译脚本
 ├── README.md                 # 项目说明
-├── LICENSE                   # 许可证文件
 └── docs/                     # 文档文件
     ├── design.md             # 设计文档
     └── usage.md              # 使用文档
@@ -76,7 +75,7 @@ bash
 make
 ```
 
-这将生成一个名为 `test` 的可执行测试文件。
+这将生成一个名为 `file_type_test` 的可执行测试文件。
 
 ## :star:使用方法
 
@@ -85,7 +84,7 @@ make
 bash
 
 ```bash
-./test <file|url|dir|urls_file>
+./file_type_test <file|url|dir|urls_file>
 ```
 
 - **单个文件或 URL**：
@@ -93,8 +92,8 @@ bash
   bash
 
   ```bash
-  ./test example.txt
-  ./test http://example.com/file.png
+  ./file_type_test example.txt
+  ./file_type_test http://example.com/file.png
   ```
 
 - **目录识别**：
@@ -102,7 +101,7 @@ bash
   bash
 
   ```bash
-  ./test /path/to/directory
+  ./file_type_test /path/to/directory
   ```
 
 - **URL 列表文件**：
@@ -110,7 +109,7 @@ bash
   bash
 
   ```bash
-  ./test urls.txt
+  ./file_type_test urls.txt
   ```
 
 ### 示例输出
