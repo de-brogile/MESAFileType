@@ -1,0 +1,108 @@
+.mp3: audio/mpeg; charset=binary
+
+.gsrt: application/octet-stream; charset=binary
+
+.wav: audio/x-wav; charset=binary
+
+.nist: application/octet-stream; charset=binary
+
+.w64: audio/x-w64; charset=binary
+
+.vms: application/octet-stream; charset=binary
+
+.ima: application/x-compress-ttcomp; charset=binary
+
+.vox: application/octet-stream; charset=binary
+
+.ra: application/vnd.rn-realmedia; charset=binary
+
+.fap: application/octet-stream; charset=binary
+
+.caf: application/octet-stream; charset=binary
+
+.wv: application/octet-stream; charset=binary
+
+.prc: application/octet-stream; charset=binary
+
+.mp2: audio/mpeg; charset=binary
+
+.sndr: application/octet-stream; charset=binary
+
+.m4a: audio/x-m4a; charset=binary
+
+.avr: application/octet-stream; charset=binary
+
+.cvs: application/octet-stream; charset=binary
+
+.tta: application/octet-stream; charset=binary
+
+.sndt: application/octet-stream; charset=binary
+
+.m4r: video/mp4; charset=binary
+
+.wma: video/x-ms-asf; charset=binary
+
+.opus: audio/ogg; charset=binary
+
+.cvu: application/octet-stream; charset=binary
+
+.aiff: audio/x-aiff; charset=binary
+
+.voc: audio/x-unknown; charset=binary
+
+.oga: audio/ogg; charset=binary
+
+.cdda: application/octet-stream; charset=binary
+
+.smp: application/octet-stream; charset=binary
+
+.amb: audio/x-wav; charset=binary
+
+.paf: application/octet-stream; charset=binary
+
+.ircam: application/octet-stream; charset=binary
+
+.htk: application/octet-stream; charset=binary
+
+.aac: audio/x-hx-aac-adts; charset=binary
+
+.wve: application/octet-stream; charset=binary
+
+.au: audio/basic; charset=binary
+
+.sd2: application/octet-stream; charset=binary
+
+.fssd: application/octet-stream; charset=binary
+
+.dvms: application/octet-stream; charset=binary
+
+.sln: application/x-matlab-data; charset=binary
+
+.ogg: audio/ogg; charset=binary
+
+.txw: application/octet-stream; charset=binary
+
+.sph: application/octet-stream; charset=binary
+
+.sou: application/octet-stream; charset=binary
+
+.8svx: audio/x-aiff; charset=binary
+
+.cvsd: application/octet-stream; charset=binary
+
+.hcom: application/octet-stream; charset=binary
+
+.dts: application/octet-stream; charset=binary
+
+.ac3: audio/vnd.dolby.dd-raw; charset=binary
+
+.spx: audio/ogg; charset=binary
+
+.flac: audio/flac; charset=binary
+
+.snd: audio/basic; charset=binary
+
+.maud: application/octet-stream; charset=binary
+
+.pvf: application/octet-stream; charset=binary
+

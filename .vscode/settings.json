@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "mesa_file_type.h": "c",
+        "magic.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "stat.h": "c",
+        "pthread.h": "c"
+    }
+}
